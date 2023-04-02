@@ -1,0 +1,154 @@
+@import url("header.css");
+@import url("footer.css");
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    position: relative;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRInmPs35tiC1_rTYc6xMo9vr4gIVjYxki_mg&usqp=CAU");
+    background-attachment: fixed;
+}
+
+body::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 4, 0, 0.6);
+    position: absolute;
+    z-index: -1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header, .main, .footer {
+    width: 800px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+
+
+.main {
+    padding: 100px 20px;
+    background-color: #F6F3FF;
+}
+
+
+
+
+/* section start */
+
+.start {
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+
+.start h1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.start p {
+    margin: 0;
+}
+
+
+
+
+/* section html  and section css  */
+
+.about-html, .about-css {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.about-html img, .about-css img {
+    margin-right: 200px;
+    width: 15%;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.link a, .link a {
+    padding: 9px 38px;
+    border-radius: 20px 0px;
+    text-decoration: none;
+    background-color: #9CFF9A;
+    color: #000000;
+}
+
+/* section examples */
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.note {
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.images-col {
+    text-align: center;
+    margin: 0;
+}
+
+.images-col img {
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.images-row {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.images-row img {
+    margin: 0 15px;
+    width: 30%;
+}
+
+
+
+/* section main-idea */
+
+.main-idea p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+
+
